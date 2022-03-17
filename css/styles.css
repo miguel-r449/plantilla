@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    box-sizing: border-box;
+    color: white;
+    background: #300a0a;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body::-webkit-scrollbar {
+
+    width: 10px;     /* Tamaño del scroll en vertical */
+    background: rgb(2, 4, 67, .6)
+    
+
+       /* Tamaño del scroll en horizontal */
+
+    
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+
+body::-webkit-scrollbar-thumb {
+
+    background: lightslategray;
+    
+    border-radius: 10px;
+    
+
+}
+
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+
+    background: gray;
+
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* Cambiamos el fondo cuando esté en active */
+
+body::-webkit-scrollbar-thumb:active {
+
+    background-color: #045865;
+
+}
+
+
+
+/* sesion o registro */
+#eleccion{
+    display: inline-block;
+    margin-left: 80%;
+    background-color: #c9c9c9;
+   
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+/* ------inicio de sesion -------*/
+#iniciar-sesion{
+    
+    display: inline-block;
+    
+    
+    font-size: 14px;
+    border-right: 2px solid gray;
+    padding-left: 2px;
+    
+}
+#iniciar-sesion:hover{
+    border: 2px solid gray;
+    background: #606060;
+    color: white;
+    border-radius: 5px;
+    padding: 1px;
+
+}
+
+
+#registrarte{
+    
+    display:inline-block;
+   
+    
+    font-size: 14px;
+    border-left: 2px solid gray;
+    padding-right: 2px;
+}
+#registrarte:hover{
+    border: 2px solid gray;
+    background: #606060;
+    color: white;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+/* sesion */
+
+#h1-sesion{
+    color: beige;
+    font-size: 30px;
+    margin-left: 34%;
+    margin-bottom: 5%;
+    border: 1px solid gray;
+    display: inline-block;
+    
+    padding:10px 70px 10px 60px;
+}
+.sesion-label{
+    font-size: 28px;
+    color: aliceblue;
+    display:block;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+.sesion-input{
+    border-radius: 5px;
+    background: lightgrey;
+    border: 1px solid gray;
+    margin-left: 26%;
+    width: 46%;
+    height: 30px;
+    margin-bottom: 60px;
+}
+#sesion-boton{
+    display: block;
+    margin-left: 27%;
+    border: 2px solid bisque;
+    border-radius: 5px;
+    background-color: #c9c9c9;
+    height: 26px;
+    width: 120px;
+    
+    padding: 2px;
+}
+
+
+
+
+/* temas sesion */
+
+
+#temas-sesion{
+    list-style-type: none;
+    position: absolute;
+    
+    
+}
+#temas-sesion li {
+    display: block;
+    
+    
+
+}
+#temas-sesion li {
+    background-color: #434141;
+    border: 1px solid gray;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+#temas-sesion li:hover{
+    border: 2px solid lightgray;
+    background-color:#5e5d5d ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------pagina de inicio----------- */
+
+/* menu */
+#menu-principal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #323434;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.elemento {
+    float: left;
+
+}
+
+.elemento a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.elemento a:hover {
+    background-color: rgb(50, 9, 9);
+    font-size: 16px;
+}
+/* foto de perfil */
+#perfil{
+    float:right;
+
+}
+#foto-perfil{
+    border-radius: 900px;
+    width: 35px;
+    margin-right: 20px;
+}
+/* boton para la barra lateral */
+.raya{
+    background: #8f1103;
+   
+    width: 18px;
+    height: 2.2px;
+    margin: 4.5px;
+    
+}
+
+#boton-menu-lateral{
+    background-color: #434141;
+    border: 1px solid gray;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+#boton-menu-lateral:hover{
+    border: 2px solid lightgray;
+    background-color:#5e5d5d ;
+}
+
+/* menu lateral */
+#menu-lateral{
+    border: 2px solid rgb(87, 82, 82);
+    position: absolute;
+    display:none;
+    width: 30%;
+    height: 82%;
+   
+    z-index: 40;
+    background: #323434;
+    list-style: none;
+    border-radius: 5px;
+    
+    
+    
+}
+
+.elemento-lateral {
+    margin:   20px  0px;
+    
+
+}
+.elemento-lateral a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+    padding: 14px 16px;
+    font-size: 14px;
+}
+.elemento-lateral a:hover{
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+}
+#perfil-lateral{
+    
+    
+    width: 40px;
+    border-radius: 900px;
+}
+/* contenido */
+#contenido{
+    position: absolute;
+    z-index: 20;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+    
+    
+}
